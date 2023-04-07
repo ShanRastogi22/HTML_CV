@@ -10,31 +10,32 @@
 
 body {
   background: #585c68;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 22px;
   color: #555555;
 }
 
 .bold {
-  font-weight: 700;
+  font-weight: auto;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .semi-bold {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .resume {
-  width: 800px;
+  justify-content: center;
+  width: auto;
   height: auto;
   display: flex;
   margin: 50px auto;
 }
 
 .resume .resume_left {
-  width: 280px;
+  width: 300px;
   background: #0bb5f4;
 }
 
@@ -145,7 +146,7 @@ body {
 }
 
 .resume .resume_right {
-  width: 520px;
+  width: 1000px;
   background: #0b0b0b;
   padding: 25px;
   color: white;
@@ -224,12 +225,18 @@ body {
   content: "";
   position: absolute;
   top: 40px;
-  right: -118px;
-  width: 118px;
+  right: -145px;
+  width: 144px;
   height: 2px;
   background: #0bb5f4;
 }
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+.flex{
+  display: flex;
+}
+.di{
+  flex-direction: row;
 }
